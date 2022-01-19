@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": false,
+    "declaration": true,
+    "lib": [
+      "es2017.object",
+      "es2015",
+      "es2017",
+      "dom"
+    ]
+  },
+  "files": [
+    "./node_modules/@types/node/index.d.ts"
+  ],
+  "include": [
+    "src/**/*.ts",
+    "package.json"
+, "src/validators/UserValidators.mjs", "src/routers/UserRouter.mjs", "src/models/User.mjs","src/environments/env.mjs.jssrc/environments/prod.env.mjsv.js","src/environments/dev.env.mjs.js", "src/controllers/UserController.mjs", "src/index.mjs", "src/server.mjs", "src/index.mjs", "src/index.mts"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
